@@ -14,21 +14,16 @@ import {
 
 export default function Sidebar() {
   return (
-    <aside className="flex flex-col justify-between p-4 bg-primary-color h-[100vh] w-[18.75rem] fixed">
+    <aside className="md:hidden tall:hidden flex flex-col justify-between p-4 bg-primary-color h-[100vh] w-[18.75rem] fixed">
       <section className="flex flex-col items-center gap-5">
         <div className="flex flex-col items-center gap-3">
-          <Link
-            href="/"
-            className="hover:opacity-70 transition duration-500"
-          >
-            <Image
-              src={myImage}
-              alt="Diego photo"
-              width={150}
-              height={150}
-              className="border border-border-image rounded-[50%] border-x-8 border-y-8"
-            />
-          </Link>
+          <Image
+            src={myImage}
+            alt="Diego photo"
+            width={150}
+            height={150}
+            className="border border-border-image rounded-[50%] border-x-8 border-y-8 hover:opacity-70 transition duration-500"
+          />
           <p className="font-bold text-white text-2xl">Diego Ramos</p>
         </div>
 

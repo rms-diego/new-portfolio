@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex">
       <Sidebar />
 
-      <section className="flex-1 pl-[18.75rem]">
+      <section className="flex-1 ml-[18.75rem] md:ml-0 tall:ml-0">
         <HomeContent id="home" />
       </section>
     </main>
