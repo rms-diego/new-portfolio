@@ -56,7 +56,7 @@ export default function Sidebar() {
           </Link>
 
           <Link
-            href="#"
+            href="https://api.whatsapp.com/send?phone=5571993804648"
             target="_blank"
             className="bg-[#2c2f3f] rounded-full bg-clip-padding-box p-1 hover:bg-background-icons transition duration-500"
           >
