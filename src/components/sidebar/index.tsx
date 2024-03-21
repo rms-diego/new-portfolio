@@ -79,7 +79,7 @@ export default function Sidebar() {
 
         <nav className="text-white flex flex-col self-start justify-between">
           <Link
-            href="#"
+            href="#home"
             className="flex items-center gap-1 font-bold p-1 text-xl hover:text-blue-500 transition duration-500"
           >
             <House /> Home
