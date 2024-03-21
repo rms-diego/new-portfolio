@@ -12,7 +12,7 @@ import {
   ReadCvLogo,
 } from '@phosphor-icons/react/dist/ssr';
 
-export default function Sidebar() {
+export function Sidebar() {
   return (
     <aside className="md:hidden tall:hidden flex flex-col justify-between p-4 bg-primary-color h-[100vh] w-[18.75rem] fixed">
       <section className="flex flex-col items-center gap-5">

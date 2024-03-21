@@ -3,7 +3,7 @@ import React from 'react';
 
 import mainImage from '@/assets/main-image.svg';
 
-export default function HomeContent({ ...rest }) {
+export function HomeContent({ ...rest }) {
   return (
     <section
       {...rest}
