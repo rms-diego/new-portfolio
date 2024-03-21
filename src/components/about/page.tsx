@@ -5,7 +5,7 @@ export function About({ ...rest }) {
   return (
     <section
       {...rest}
-      className="bg-slate-100 text-black  tall:py-10 p-14 flex flex-col gap-10 "
+      className="bg-slate-100 text-black  tall:py-10 p-14 flex flex-col gap-10 min-h-[50vh]"
     >
       <section className="px-9 flex flex-col gap-2 lg:px-0">
         <h1 className="font-bold text-title-color text-4xl lg:text-center">
