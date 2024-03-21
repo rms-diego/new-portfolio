@@ -10,6 +10,7 @@ import {
   House,
   User,
   ReadCvLogo,
+  Code,
 } from '@phosphor-icons/react/dist/ssr';
 
 export function Sidebar() {
@@ -85,6 +86,13 @@ export function Sidebar() {
             className="flex items-center gap-1 font-bold p-1 text-xl hover:text-blue-500 transition duration-500"
           >
             <User /> Sobre mim
+          </Link>
+
+          <Link
+            href="#"
+            className="flex items-center gap-1 font-bold p-1 text-xl hover:text-blue-500 transition duration-500"
+          >
+            <Code /> Habilidades
           </Link>
 
           <Link
