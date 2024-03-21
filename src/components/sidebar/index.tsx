@@ -81,7 +81,7 @@ export function Sidebar() {
           </Link>
 
           <Link
-            href="#"
+            href="#about"
             className="flex items-center gap-1 font-bold p-1 text-xl hover:text-blue-500 transition duration-500"
           >
             <User /> Sobre mim
