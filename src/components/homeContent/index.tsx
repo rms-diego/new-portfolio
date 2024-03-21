@@ -7,7 +7,7 @@ export default function HomeContent({ ...rest }) {
   return (
     <section
       {...rest}
-      className="bg-primary-color text-black min-h-[100vh] flex justify-center items-center"
+      className="bg-primary-color text-black min-h-[100vh] flex justify-center items-center tall:py-10"
     >
       <div className="flex flex-col text-white w-1/2 gap-4 items-center animate__animated animate__flash">
         <Image
