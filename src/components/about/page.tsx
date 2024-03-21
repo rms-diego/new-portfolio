@@ -1,13 +1,25 @@
+'use client';
 import Image from 'next/image';
 import myImage from '@/assets/diego.jpg';
+import { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export function About({ ...rest }) {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
   return (
     <section
       {...rest}
       className="bg-slate-100 text-black  tall:py-10 p-14 flex flex-col gap-10 min-h-[50vh]"
     >
-      <section className="px-9 flex flex-col gap-2 lg:px-0">
+      <section
+        className="px-9 flex flex-col gap-2 lg:px-0"
+        data-aos="fade-right"
+      >
         <h1 className="font-bold text-title-color text-4xl lg:text-center">
           Sobre mim
         </h1>
@@ -27,13 +39,21 @@ export function About({ ...rest }) {
             </h2>
 
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-              quo quis perferendis distinctio recusandae quia magnam ut,
-              voluptas facilis laborum ipsam ipsa ad itaque est, optio eum! Ea,
-              voluptatibus beatae. Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Porro quos placeat reprehenderit deleniti iure
-              assumenda sapiente totam voluptates expedita maxime, qui, sed
-              earum debitis minus doloremque. In veniam eius delectus.
+              Olá! Sou Diego Ramos, um Desenvolvedor fullstack apaixonado por
+              tecnologia. Com mais de 3 anos de experiência na área, venho
+              explorando o mundo do desenvolvimento de software. Desde o
+              frontend com React e Vue até o backend com Node.js e Java, estive
+              brincando com várias tecnologias e descobrindo maneiras de criar
+              soluções usando a tecnologia. Estou sempre procurando por novos
+              desafios e oportunidades para aprender e crescer. Além do
+              trabalho, curto compartilhar o que sei através de comunidades open
+              source, e adoro conhecer novas pessoas.
+            </p>
+
+            <p>
+              Um dos meus passatempos favoritos é a leitura de livros e mangás,
+              além de maratonar filmes, séries e jogar. Tenho um interesse
+              especial por temas como economia, filosofia e ficção em geral.
             </p>
           </div>
         </section>
