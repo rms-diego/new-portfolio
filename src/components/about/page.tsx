@@ -14,15 +14,15 @@ export function About({ ...rest }) {
   return (
     <section
       {...rest}
-      className="bg-slate-100 text-black  tall:py-10 p-14 flex flex-col gap-10 min-h-[50vh]"
+      className="bg-slate-100 text-black  tall:py-10 p-10 flex flex-col gap-10 min-h-[50vh]"
     >
       <section
-        className="px-9 flex flex-col gap-2 lg:px-0"
+        className="flex flex-col gap-2 lg:px-0"
         data-aos="fade-right"
       >
-        <h1 className="font-bold text-title-color text-4xl lg:text-center">
+        <h2 className="font-bold text-title-color text-4xl lg:text-center">
           Sobre mim
-        </h1>
+        </h2>
 
         <section className="flex gap-5 items-center lg:flex-col">
           <Image
@@ -34,11 +34,11 @@ export function About({ ...rest }) {
           />
 
           <div className="flex flex-col gap-5 text-justify">
-            <h2 className="font-bold text-title-color text-4xl text-center lg:text-2xl">
+            <h3 className="font-bold text-title-color text-4xl text-center lg:text-2xl">
               Desenvolvedor fullstack
-            </h2>
+            </h3>
 
-            <p>
+            <p className="md:tracking-tighter">
               Olá! Sou Diego Ramos, um Desenvolvedor fullstack apaixonado por
               tecnologia. Com mais de 3 anos de experiência na área, venho
               explorando o mundo do desenvolvimento de software. Desde o
@@ -50,7 +50,7 @@ export function About({ ...rest }) {
               source, e adoro conhecer novas pessoas.
             </p>
 
-            <p>
+            <p className="md:tracking-tighter">
               Um dos meus passatempos favoritos é a leitura de livros e mangás,
               além de maratonar filmes, séries e jogar. Tenho um interesse
               especial por temas como economia, filosofia e ficção em geral.

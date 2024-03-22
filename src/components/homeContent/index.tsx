@@ -34,7 +34,7 @@ export function HomeContent({ ...rest }) {
         >
           Bem vindo(a) ! 👋
         </h1>
-        <p className="text-xl text-justify md:text-lg">
+        <p className="text-xl text-justify md:text-lg md:tracking-tighter">
           Bem-vindo ao meu portfólio! Sou Diego Ramos, um desenvolvedor
           apaixonado por aprender e por tecnologia. Estar procurando novos
           desafios são o que me motiva, principalmente se for necessário

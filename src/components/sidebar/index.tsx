@@ -89,7 +89,7 @@ export function Sidebar() {
           </Link>
 
           <Link
-            href="#"
+            href="#techs"
             className="flex items-center gap-1 font-bold p-1 text-xl hover:text-blue-500 transition duration-500"
           >
             <Code /> Tecnologias
