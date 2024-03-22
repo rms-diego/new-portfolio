@@ -92,7 +92,7 @@ export function Sidebar() {
             href="#"
             className="flex items-center gap-1 font-bold p-1 text-xl hover:text-blue-500 transition duration-500"
           >
-            <Code /> Habilidades
+            <Code /> Tecnologias
           </Link>
 
           <Link
