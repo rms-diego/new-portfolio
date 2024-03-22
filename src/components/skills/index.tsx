@@ -31,10 +31,12 @@ export function Skills({ ...rest }) {
           <TechnologyList
             title="Back-End"
             techs={[
+              'Spring',
               'Node.js',
               'Express',
               'Fastify',
               'Nest.js',
+              'Spring data JPA',
               'Prisma orm',
               'TypeORM',
               'Mongoose',
