@@ -9,3 +9,29 @@
 
   --titles-color: #173b6c;
 }
+
+/* Estilos para WebKit (Safari, Chrome, etc.) */
+body::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #040b14; /* Cor de fundo da trilha */
+}
+
+body::-webkit-scrollbar-track-piece:start {
+  background-color: transparent; /* Cor de fundo da parte inicial da trilha */
+}
+
+body::-webkit-scrollbar-track-piece:end {
+  background-color: transparent; /* Cor de fundo da parte final da trilha */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #cccccc; /* Cor do controle de rolagem */
+  border-radius: 4px; /* Raio de borda do controle de rolagem */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #999999; /* Cor do controle de rolagem ao passar o mouse */
+}
