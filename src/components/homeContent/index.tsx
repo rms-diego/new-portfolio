@@ -29,7 +29,7 @@ export function HomeContent({ ...rest }) {
         />
 
         <h1
-          className="font-bold text-4xl md:text-2xl text-[#149ddd] text-center"
+          className="font-bold text-4xl md:text-2xl text-[#149ddd] text-center overflow-hidden"
           data-aos="fade-right"
         >
           Bem vindo(a) ! 👋
