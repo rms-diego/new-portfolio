@@ -34,7 +34,7 @@ export function About({ ...rest }) {
           />
 
           <div className="flex flex-col gap-5 text-justify">
-            <h3 className="font-bold text-title-color text-4xl text-center lg:text-2xl">
+            <h3 className="font-bold text-title-color text-4xl text-center lg:text-2xl overflow-hidden">
               Desenvolvedor fullstack
             </h3>
 

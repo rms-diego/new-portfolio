@@ -45,6 +45,11 @@ export function Contact({ ...rest }) {
       },
       body: JSON.stringify({ name, email, emailTitle, emailContent }),
     });
+
+    setName('');
+    setEmail('');
+    setEmailTitle('');
+    setEmailContent('');
   }
 
   return (
