@@ -17,7 +17,7 @@ export function Resume({ ...rest }) {
     >
       <section className="flex flex-col gap-4 lg:px-0">
         <div className="flex flex-col gap-4 lg:items-center">
-          <h5 className="font-bold text-title-color text-4xl lg:text-center">
+          <h5 className="font-bold text-title-color text-4xl lg:text-center overflow-y-hidden">
             Currículo
           </h5>
 

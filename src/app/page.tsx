@@ -7,10 +7,10 @@ import { Contact } from '@/components/contact';
 
 export default function Home() {
   return (
-    <main className="flex">
+    <main className="flex w-[100vw]">
       <Sidebar />
 
-      <section className="flex-1 ml-[18.75rem] md:ml-0 tall:ml-0">
+      <section className="flex-1 ml-[18.75rem] md:ml-0 tall:ml-0 overflow-x-hidden">
         <HomeContent id="home" />
         <About id="about" />
         <hr className="border border-title-color opacity-30" />

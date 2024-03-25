@@ -10,7 +10,7 @@ export function Skills({ ...rest }) {
         className="flex flex-col gap-4 lg:px-0"
         data-aos="fade-right"
       >
-        <h4 className="font-bold text-title-color text-4xl lg:text-center">
+        <h4 className="font-bold text-title-color text-4xl lg:text-center overflow-y-hidden">
           Tecnologias
         </h4>
 

@@ -20,7 +20,7 @@ export function About({ ...rest }) {
         className="flex flex-col gap-2 lg:px-0"
         data-aos="fade-right"
       >
-        <h2 className="font-bold text-title-color text-4xl lg:text-center">
+        <h2 className="font-bold text-title-color text-4xl lg:text-center overflow-y-hidden">
           Sobre mim
         </h2>
 
