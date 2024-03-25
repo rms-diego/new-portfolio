@@ -63,7 +63,7 @@ export function Sidebar() {
           </Link>
 
           <Link
-            href="#"
+            href="#contact"
             className="bg-[#2c2f3f] rounded-full bg-clip-padding-box p-1 hover:bg-background-icons transition duration-500"
           >
             <Envelope
@@ -96,7 +96,7 @@ export function Sidebar() {
           </Link>
 
           <Link
-            href="#"
+            href="#contact"
             className="flex items-center gap-1 font-bold p-1 text-xl hover:text-blue-500 transition duration-500"
           >
             <Envelope /> Contato

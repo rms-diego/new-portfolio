@@ -21,7 +21,7 @@ export default function Home() {
         <Resume id="resume" />
         <hr className="border border-title-color opacity-30" />
 
-        <Contact />
+        <Contact id="contact" />
       </section>
     </main>
   );
