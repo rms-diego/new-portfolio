@@ -39,14 +39,13 @@ export function About({ ...rest }) {
             </h3>
 
             <p className="md:tracking-tighter">
-              Um Desenvolvedor apaixonado por tecnologia. Com mais de 3 anos de
-              experiência na área, venho explorando o mundo do desenvolvimento
-              de software. Desde o frontend com React e Vue até o backend com
-              Node.js e Java, estive estudando várias tecnologias, procurando
-              sempre qualificar minha mão de obra. Estou sempre procurando por
-              novos desafios e oportunidades para aprender e crescer. Além do
-              trabalho, curto compartilhar o que sei através de comunidades open
-              source, e adoro conhecer novas pessoas.
+              Um desenvolvedor apaixonado por tecnologia. Venho explorando o
+              mundo do desenvolvimento de software. Desde o frontend com React e
+              Vue até o backend com Node.js e Java, estive estudando várias
+              tecnologias, procurando sempre qualificar minha mão de obra. Estou
+              sempre procurando por novos desafios e oportunidades para aprender
+              e crescer. Além do trabalho, curto compartilhar o que sei através
+              de comunidades open source, e adoro conhecer novas pessoas.
             </p>
 
             <p className="md:tracking-tighter">
