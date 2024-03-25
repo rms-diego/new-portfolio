@@ -35,8 +35,16 @@ export function Contact({ ...rest }) {
     setEmailContent(value);
   }
 
-  function handleSubmitMail(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmitMail(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+
+    await fetch('/api/mail', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, emailTitle, emailContent }),
+    });
   }
 
   return (
@@ -48,7 +56,7 @@ export function Contact({ ...rest }) {
         className="flex flex-col gap-2 lg:px-0 "
         data-aos="fade-up"
       >
-        <p className="text-center font-bold text-title-color text-4xl lg:text-center">
+        <p className="text-center font-bold text-title-color text-4xl lg:text-center overflow-y-hidden">
           Fale comigo
         </p>
 
@@ -84,10 +92,11 @@ export function Contact({ ...rest }) {
               className="resize-none flex-1 border border-black p-2"
               value={emailContent}
               onChange={handleChangeEmailContent}
+              required
             />
           </label>
 
-          <button className="border border-black p-5 bg-primary-color text-white rounded-md">
+          <button className="border border-black py-5 bg-primary-color text-white rounded-md px-8">
             Enviar
           </button>
         </form>
