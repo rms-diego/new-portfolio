@@ -30,7 +30,7 @@ export function About({ ...rest }) {
             src={myImage}
             width={400}
             height={400}
-            className="rounded-xl"
+            className="rounded-xl xl:w-[60vw]"
           />
 
           <div className="flex flex-col gap-5 text-justify">
