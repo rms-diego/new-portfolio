@@ -64,9 +64,10 @@ export function Skills({ ...rest }) {
           <TechnologyList
             title="Outros"
             techs={[
-              'Typescript',
               'Imperative programming',
               'OOP programming',
+              'Typescript',
+              'Vitest | Jest | Mocha and Chai',
               'SOLID',
               'Git',
               'Github',
