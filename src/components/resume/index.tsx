@@ -22,13 +22,11 @@ export function Resume({ ...rest }) {
           </h5>
 
           <p className="text-lg text-justify max-w-[65vw] lg:max-w-[80vw] md:tracking-tighter">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa sint
-            obcaecati a, nisi rem maiores veniam dignissimos excepturi id
-            perferendis doloremque hic nobis molestiae nulla est asperiores
-            magni in consequuntur? Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatum, delectus! Cumque illo rem facilis,
-            nihil assumenda iusto nulla voluptate totam, autem a reiciendis
-            consequatur facere. Odio inventore est sed quas.
+            Durante minhas experiencias profissionais adquiri uma sólida base
+            teórica e prática em diversas áreas da computação, incluindo
+            algoritmos, estruturas de dados, programação orientada a objetos e
+            desenvolvimento de software. Ampliando meu conhecimento e
+            habilidades em tecnologia da informação.
           </p>
         </div>
 
