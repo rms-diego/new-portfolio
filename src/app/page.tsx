@@ -1,8 +1,9 @@
 import { Sidebar } from '@/components/sidebar';
 import { HomeContent } from '@/components/homeContent';
-import { About } from '@/components/about/page';
+import { About } from '@/components/about';
 import { Skills } from '@/components/skills';
 import { Resume } from '@/components/resume';
+import { Contact } from '@/components/contact';
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
 
         <Resume id="resume" />
         <hr className="border border-title-color opacity-30" />
+
+        <Contact />
       </section>
     </main>
   );
